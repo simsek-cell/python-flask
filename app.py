@@ -64,7 +64,7 @@ def emailcontrol():
     code = f"""
     <font color='purple' style='font-weight: bold;'>{str(number)}</font>
     """
-    sendmail.sendmessage("hamitsimsek4457@gmail.com","darende57",email,code)
+    sendmail.sendmessage("***@gmail.com","d***",email,code)
     return render_template("emailcontrol.html")
 
 @app.route("/codecontrol",methods=["POST"])
